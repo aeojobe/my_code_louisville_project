@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INCOME TRACKER</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Lilita+One|Open+Sans|Sniglet" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <header class="clearfix">
+        <a href="index.html" id="logo">
+            <h1>Alhagie Jobe</h1>
+            <h2>Web Developer</h2>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="js/sample.js"></script>
+    <section>
+            <p id="page_heading" ><strong>INCOME TRACKER</strong></p>
+
+         <form>
+             <fieldset>
+                    <legend>PUT DATA HERE:</legend>
+                    <label for="date">DATE</label>
+                    <input type="date"id="date" name="date">
+                    <label for="income_type">INCOME TYPE</label>
+                    <input type="text" id="income_type" name="income_type">
+                    <label for="amount">AMOUNT:$</label>
+                    <input type="text" id="amount" name="amount"><br><br>
+            </fieldset>
+                          
+            <fieldset id="fieldset_buttons">
+                    <input type="button" name="add_income" value="ADD INCOME" >
+                    <input type="reset" name="reset"value="CLEAR DATA">
+                    <input type="button" name="expense_tracker" value="EXPENSES TRACKER" 
+                    onclick="window.location.href='expenses.html'">
+                    <input type="button" name="production_tracker" value="PRODUCTION TRACKER"
+                    onclick="window.location.href='production.html'">
+            </fieldset>     
+        </form>
+    </section>
+    <p id = demo></p>
+
+    <footer>
+            <a href="https://www.facebook.com/alhagie.jobe.5">
+                <img src="img/facebook-wrap.png" alt="facebook image" class="social-icon">
+            </a>
+            <a href="https://twitter.com/aeojobe">
+                <img src="img/twitter-wrap.png" alt="twitter image" class="social-icon">
+            </a>
+
+        <p>&copy; 2019 Alhagie Jobe Web Developer</p>
+    </footer>
+    </body>
+</body>
+</html>
